@@ -1,12 +1,12 @@
 {
-    "name": "riari/laravel-forum",
+    "name": "jcmurrayii/laravel-forum",
     "description": "A complete forum package designed for easy integration into any Laravel 4/5 application",
     "keywords": ["laravel", "laravel-4", "laravel-5", "forum", "discuss"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Riari",
-            "email": "hello@ricko.me"
+            "name": "Jc Murray",
+            "email": "jc@decisionarytech.com"
         }
     ],
     "require": {

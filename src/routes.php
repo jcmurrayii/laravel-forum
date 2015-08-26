@@ -3,7 +3,7 @@ if (!isset($root) || !isset($controller)) {
 	throw new Exception ("This file can't be included outside of ForumServiceProvider@boot!");
 }
 
-Route::get($root, $controller . '@getViewIndex');
+Route::get($root, ['uses' => $controller . '@getViewIndex','as'=>'forum.index']);
 Route::group(['prefix' => $root], function() use ($controller)
 {
 	$category = '{categoryID}-{categoryAlias}';
